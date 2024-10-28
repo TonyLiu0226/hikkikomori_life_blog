@@ -21,3 +21,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.front {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  width: 50%;
+  min-width: 150px;
+}

@@ -9,8 +9,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Hikkikomori Life',
-  tagline: 'A cringy blog about anime, programming, and irl memes',
-  favicon: 'img/favicon.ico',
+  tagline: 'A blog about anime, programming, and cringy memes from my past experiences',
+  favicon: 'img/logo.JPG',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -66,12 +66,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.JPG',
       navbar: {
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.JPG',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
