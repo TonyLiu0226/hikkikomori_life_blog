@@ -7,6 +7,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+import PhotoGallery from '@site/src/components/photoGallery';
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -33,8 +35,9 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      <main className="container mx-auto px-4 mb-10">
+        <h5 className="text-4xl text-center font-bold mb-8 mt-4">Featured photos:</h5>
+          <PhotoGallery />
       </main>
     </Layout>
   );
