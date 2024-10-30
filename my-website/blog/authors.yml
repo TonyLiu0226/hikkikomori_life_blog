@@ -1,22 +1,26 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+Alex:
+  name: Alex
+  title: Electrical Engineer and Blogger
+  url: https://github.com/bobby2988
+  image_url: '/authors/alex.jpg'
   page: false
   socials:
-    x: yangshunz
-    github: yangshun
+    x: bobby2988
+    github: bobby2988
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+IndoorOtaku:
+  name: IndoorOtaku
+  title: Weaboo and Fashion Blogger
+  url: https://github.com/indoorOtaku
+  image_url: '/authors/indoorOtaku.PNG'
   page:
     false
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    linkedin: indoorOtaku
+    github: indoorOtaku
+
+HikkikomoriNewsNow:
+  name: Hikkikomori NEWS NOW
+  url: https://hikkikomorinewsnow.com
+  page:
+    false
