@@ -11,7 +11,7 @@ import tailwindPlugin from "./plugins/tailwind-config.cjs";
 const config = {
   title: 'Hikkikomori Life',
   tagline: 'A blog about anime, programming, and cringy memes from my past experiences',
-  favicon: 'img/logo.JPG',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -67,17 +67,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/logo.JPG',
+      image: 'img/logo.png',
       navbar: {
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.JPG',
+          src: 'img/logo.png',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://yunxiaoliu.com',
+            href: 'https://youtube.com',
             label: 'Back to Portfolio',
             position: 'right',
           },
@@ -95,25 +95,8 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Contact',
-            items: [
-              {
-                label: 'Email',
-                href: 'mailto:tl0226yn@gmail.com',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/TonyLiu0226',
-              },
-              {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/in/yunxiaotonyliu/',
-              }
-            ],
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Yunxiao Liu.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Hikkikomori Life.`,
       },
       prism: {
         theme: prismThemes.github,
