@@ -58,7 +58,7 @@ export default function PhotoGallery() {
             className="w-full bg-white rounded-lg shadow-md p-6 cursor-pointer
                        transition-all duration-300 ease-in-out
                        hover:scale-105 hover:bg-purple-50
-                       border border-gray-200"
+                       border border-gray-200 max-w-6xl mx-auto"
         >
             {/* Image Gallery */}
             <div className="relative mb-4">
@@ -66,7 +66,7 @@ export default function PhotoGallery() {
                 <img
                   src={`${images[currentImageIndex].src}`}
                   alt={`image ${currentImageIndex + 1}`}
-                  className="rounded-lg object-contain w-full max-h-96 md:max-h-screen"
+                  className="rounded-lg object-contain w-full max-h-96 md:max-h-5xl"
                 />
               </div>
               
